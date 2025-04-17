@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-07T16:25:15 IST" name="Default suite" finished-at="2023-06-07T16:26:17 IST" duration-ms="61614">
+    <groups>
+    </groups>
+    <test started-at="2023-06-07T16:25:15 IST" name="Default test" finished-at="2023-06-07T16:26:17 IST" duration-ms="61614">
+      <class name="SauceDemoPackage.ReportGeneration">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SauceDemoPackage.ReportGeneration@61710c6]" started-at="2023-06-07T16:25:15 IST" name="setup" finished-at="2023-06-07T16:26:17 IST" duration-ms="61559" status="FAIL">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at SauceDemoPackage.ReportGeneration.setup(ReportGeneration.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="OpenGoogle()[pri:0, instance:SauceDemoPackage.ReportGeneration@61710c6]" started-at="2023-06-07T16:26:17 IST" name="OpenGoogle" finished-at="2023-06-07T16:26:17 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at SauceDemoPackage.ReportGeneration.setup(ReportGeneration.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGoogle -->
+        <test-method signature="f1()[pri:0, instance:SauceDemoPackage.ReportGeneration@61710c6]" started-at="2023-06-07T16:26:17 IST" name="f1" finished-at="2023-06-07T16:26:17 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at SauceDemoPackage.ReportGeneration.setup(ReportGeneration.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f2()[pri:0, instance:SauceDemoPackage.ReportGeneration@61710c6]" started-at="2023-06-07T16:26:17 IST" name="f2" finished-at="2023-06-07T16:26:17 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at SauceDemoPackage.ReportGeneration.setup(ReportGeneration.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method signature="f3()[pri:0, instance:SauceDemoPackage.ReportGeneration@61710c6]" started-at="2023-06-07T16:26:17 IST" name="f3" finished-at="2023-06-07T16:26:17 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at SauceDemoPackage.ReportGeneration.setup(ReportGeneration.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method signature="f4()[pri:0, instance:SauceDemoPackage.ReportGeneration@61710c6]" started-at="2023-06-07T16:26:17 IST" name="f4" finished-at="2023-06-07T16:26:17 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:45273/devtools/browser/2b4dcb79-b6fa-4d23-baca-8926ad50d097
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at SauceDemoPackage.ReportGeneration.setup(ReportGeneration.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SauceDemoPackage.ReportGeneration@61710c6]" started-at="2023-06-07T16:26:17 IST" name="teardown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1686135377114" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SauceDemoPackage.ReportGeneration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
